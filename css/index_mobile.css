@@ -1,0 +1,426 @@
+.header{
+    position: fixed;
+    /* background-color: #fff; */
+    width: 100%;
+    padding: 12px 12px;
+    height: 80px;
+    z-index: 100;
+}
+
+.nav-responsivo{
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    transition-property: background-color, border-radius;
+    transition-delay: 0.3s;
+    transition-duration: 0.4s;
+}
+
+.nav-responsivo__ul{
+    display: none;
+}
+
+.nav-responsivo__boton-abrir{
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-responsivo__boton-abrir i{
+    font-size: 20px;
+}
+
+.nav-responsivo__logo{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-responsivo__logo img{
+    filter: brightness(100);
+}
+
+.nav-responsivo__boton-abrir i{
+    color: #fff;
+}
+
+/*JavaScrip nav-responsivo*/
+.nav-responsivo.nav-responsivo-visible{
+    background-color: rgb(56, 56, 247);
+    border-radius: 15px;
+}
+
+
+#hero{
+    width: 100%;
+}
+
+#hero .slider{
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+}
+
+#hero .slider ul{
+    display: flex;
+    width: 400%;
+    height: 100%;
+    animation-name: desplazamientoSlider;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#hero .slider li{
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+     width: 100%;
+     height: 100%;
+     position: relative;
+}
+
+#hero .slider .slider__becas{
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
+    url(/img/slider/becas.jpg);
+}
+
+#hero .slider .slider__alumnos{
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
+    url(/img/slider/alumnos.jpg);
+}
+
+#hero .slider .slider__actividades{
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
+    url(/img/slider/extracurriculares.jpg);
+}
+
+#hero .slider .slider__servicios{
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
+    url(/img/slider/servicios.jpg);
+}
+
+#hero .slider ul div{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+}
+
+#hero .slider a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+
+@keyframes desplazamientoSlider{
+    0%{
+        margin-left: 0;
+    }
+    20%{
+        margin-left: 0;
+    }
+
+    25%{
+        margin-left: -100%;
+    }
+    45%{
+        margin-left: -100%;
+    }
+
+    50%{
+        margin-left: -200%;
+    }
+    70%{
+        margin-left: -200%;
+    }
+
+    75%{
+        margin-left: -300%;
+    }
+    100%{
+        margin-left: -300%;
+    }
+}
+
+
+hr.linea-azul{
+    color: #00f;
+    width: 90%;
+    height: 5px;
+    background-color: #00f;
+    margin: 0 10px;
+    border: none;
+    margin: 10px auto;
+    background: linear-gradient(to right, rgb(235, 137, 26) 10%, rgb(19, 204, 19) 30%, blue 60%);
+}
+
+#buscas{
+    width: 100%;
+    padding: 12px;
+}
+
+#buscas h1{
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+#buscas .rhema__subtitulo p{
+    font-family: sans-serif;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+#buscas .rhema__subtitulo{
+    margin-bottom: 20px;
+}
+
+
+#buscas .rhema__parrafo{
+    font-weight: 100;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#buscas .rhema__parrafo h4{
+    margin-bottom: 25px;
+    font-weight: 100;
+}
+
+#buscas .rhema__parrafo p{
+    line-height: 1.42;
+}
+
+#ofertas-educativas{
+    margin-top: 30px;
+    width: 100%;
+}
+
+#ofertas-educativas .ofertas{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px;
+    grid-auto-rows: 200px;
+    grid-gap: 5px;
+}
+
+#ofertas-educativas .ofertas__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#ofertas-educativas .ofertas__prepa{
+    background-image: linear-gradient(0deg, rgba(0, 0, 255, 0.4), rgba(0, 0, 255, 0.4)),
+    url(/img/ofertas/prepa.jpg)
+}
+
+#ofertas-educativas .ofertas__universidad{
+    background-image: linear-gradient(0deg, rgba(0, 0, 255, 0.4), rgba(0, 0, 255, 0.4)),
+    url(/img/ofertas/universidad.jpg)
+}
+
+#ofertas-educativas .ofertas__maestrias{
+    background-image: linear-gradient(0deg, rgba(0, 0, 255, 0.4), rgba(0, 0, 255, 0.4)),
+    url(/img/ofertas/maestrias.jpg)
+}
+
+#ofertas-educativas .ofertas__profesores{
+    background-image: linear-gradient(0deg, rgba(0, 0, 255, 0.4), rgba(0, 0, 255, 0.4)),
+    url(/img/ofertas/profesores.jpg)
+}
+
+
+#ofertas-educativas .ofertas__item h3{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 0.9em;
+}
+
+#ofertas-educativas .ofertas__item .flecha-down{
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+#ofertas-educativas .ofertas__item div i{
+    color: rgb(201, 201, 201);
+    font-size: 1.2em;
+}
+
+#ofertas-educativas .info-top{
+    background-color: #fff;
+    grid-column: 1 / -1;
+    display: none;
+}
+
+#ofertas-educativas .info-bottom{
+    background-color: #fff;
+    grid-column: 1 / -1;
+    display: none;
+}
+
+#ofertas-educativas .ofertas__item .info__desplante-top, .info__desplante-bottom{
+    align-self: flex-start;
+    text-align: justify;
+    padding: 20px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+#ofertas-educativas .ofertas__item .parrafo-top, .parrafo-bottom{
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+
+#ofertas-educativas .info .info__desplante a{
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#ofertas-educativas .info .info__desplante a:active{
+    color: #fff;
+    background-color: rgba(0, 0, 255, 0.6);
+}
+
+#ofertas-educativas .ofertas__item .cerrar{
+    position: absolute;
+    bottom: 0;
+    left: calc(100% / 2);
+}
+
+#ofertas-educativas .ofertas__item .cerrar i{
+    color: #000;
+    cursor: pointer;
+}
+
+#noticias{
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+}
+
+#noticias .noticia{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#noticias h2{
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#noticias .noticia div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#noticias .noticia div .noticia__titulo{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+#noticias .noticia div .noticia__fecha i{
+    font-size: 0.5em;
+    margin-right: 2px;
+}
+
+#noticias .noticia div .noticia__fecha{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#noticias .linea{
+    width: 95%;
+    margin: 15px auto;
+}
+
+.footer{
+    width: 100%;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.747);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .footer__logo{
+    width: 200px;
+    height: 150px;
+}
+
+.footer .footer__logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer .footer__texto{
+    align-self: flex-start;
+}
+
+.footer .footer__redes-sociales{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.footer .footer__redes-sociales a{
+    color: #fff;
+}
+
+.footer .footer__redes-sociales a:hover{
+    color: rgb(0, 174, 255);
+}
+
+.footer .footer__map{
+   width: 100%;
+}
+
+.footer .footer__map iframe{
+   width: 100%;
+   display: block;
+}
+
+.footer .footer__direccion{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.footer .footer__linea{
+    margin: 10px;
+}
+
+.footer .direccion{
+    width: 100%;
+    text-align: center;
+}
+
+.footer .footer__copy{
+    align-self: flex-end;
+    margin-top: 10px;
+}

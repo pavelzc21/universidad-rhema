@@ -1,0 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #fff;
+}
+
+ul{
+    list-style: none;
+}
+

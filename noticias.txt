@@ -1,0 +1,86 @@
+[
+    {
+        "No.Noticia" : 1,
+        "titulo" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, iste? Officiis perspiciatis et dolor amet porro culpa.",
+        "img" : "/img/noticias/independecia_mexico.jpg",
+        "info" : "",
+        "fecha" : "1 de Septiembre, 2022"
+    },
+    {
+        "No.Noticia" : 2,
+        "titulo" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, iste? Officiis perspiciatis et dolor amet porro culpa.",
+        "img" : "/img/noticias/reunion_administracion.jpg",
+        "info" : "",
+        "fecha" : "5 de Septiembre, 2022"
+    },
+    {
+        "No.Noticia" : 3,
+        "titulo" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, iste? Officiis perspiciatis et dolor amet porro culpa.",
+        "img" : "/img/noticias/practicas_psicologia.jpg",
+        "info" : "",
+        "fecha" : "7 de Septiembre, 2022"
+    },    
+    {
+        "No.Noticia" : 4,
+        "titulo" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, iste? Officiis perspiciatis et dolor amet porro culpa.",
+        "img" : "/img/noticias/independecia_mexico.jpg",
+        "info" : "",
+        "fecha" : "1 de Septiembre, 2022"
+    },
+    {
+        "No.Noticia" : 5,
+        "titulo" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, iste? Officiis perspiciatis et dolor amet porro culpa.",
+        "img" : "/img/noticias/reunion_administracion.jpg",
+        "info" : "",
+        "fecha" : "5 de Septiembre, 2022"
+    },
+    {
+        "No.Noticia" : 6,
+        "titulo" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, iste? Officiis perspiciatis et dolor amet porro culpa.",
+        "img" : "/img/noticias/practicas_psicologia.jpg",
+        "info" : "",
+        "fecha" : "7 de Septiembre, 2022"
+    },
+        {
+        "No.Noticia" : 7,
+        "titulo" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, iste? Officiis perspiciatis et dolor amet porro culpa.",
+        "img" : "/img/noticias/independecia_mexico.jpg",
+        "info" : "",
+        "fecha" : "1 de Septiembre, 2022"
+    },
+    {
+        "No.Noticia" : 8,
+        "titulo" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, iste? Officiis perspiciatis et dolor amet porro culpa.",
+        "img" : "/img/noticias/reunion_administracion.jpg",
+        "info" : "",
+        "fecha" : "5 de Septiembre, 2022"
+    },
+    {
+        "No.Noticia" : 9,
+        "titulo" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, iste? Officiis perspiciatis et dolor amet porro culpa.",
+        "img" : "/img/noticias/practicas_psicologia.jpg",
+        "info" : "",
+        "fecha" : "7 de Septiembre, 2022"
+    },
+        {
+        "No.Noticia" : 10,
+        "titulo" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, iste? Officiis perspiciatis et dolor amet porro culpa.",
+        "img" : "/img/noticias/independecia_mexico.jpg",
+        "info" : "",
+        "fecha" : "1 de Septiembre, 2022"
+    },
+    {
+        "No.Noticia" : 11,
+        "titulo" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, iste? Officiis perspiciatis et dolor amet porro culpa.",
+        "img" : "/img/noticias/reunion_administracion.jpg",
+        "info" : "",
+        "fecha" : "5 de Septiembre, 2022"
+    },
+    {
+        "No.Noticia" : 12,
+        "titulo" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, iste? Officiis perspiciatis et dolor amet porro culpa.",
+        "img" : "/img/noticias/practicas_psicologia.jpg",
+        "info" : "",
+        "fecha" : "7 de Septiembre, 2022"
+    }
+]
